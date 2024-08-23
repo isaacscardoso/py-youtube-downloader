@@ -77,14 +77,14 @@ class YoutubeDownloaderApp:
         # OptionMenu to select video quality (initially visible)
         self.quality_label_video = Label(self.root, text="Qualidade de Vídeo:")
         video_quality_options = [
-            "2160p60",
-            "1440p60",
-            "1080p60",
-            "720p60",
-            "480p",
-            "360p",
-            "240p",
-            "144p",
+            "2160",
+            "1440",
+            "1080",
+            "720",
+            "480",
+            "360",
+            "240",
+            "144",
             "best",
         ]
         self.quality_menu_video = OptionMenu(
